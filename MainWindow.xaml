@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPF_ConexionGestionPedidos_BBDD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_ConexionGestionPedidos_BBDD"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="Clientes" HorizontalAlignment="Left" Margin="82,28,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <ListBox Name="listaClientes" HorizontalAlignment="Left" Height="242" Margin="23,73,0,0" VerticalAlignment="Top" Width="200" MouseDoubleClick="listaClientes_MouseDoubleClick"/>
+        <Label x:Name="label1" Content="Pedidos" HorizontalAlignment="Left" Margin="304,28,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <ListBox Name="pedidosCliente" HorizontalAlignment="Left" Height="242" Margin="247,73,0,0" VerticalAlignment="Top" Width="200"/>
+        <ListBox Name="todosPedidos" Background="LightGray" HorizontalAlignment="Left" Height="321" Margin="472,73,0,0" VerticalAlignment="Top" Width="294"/>
+        <Button x:Name="button" Content="Borrar" FontWeight="Bold" HorizontalAlignment="Left" Margin="525,28,0,0" VerticalAlignment="Top" Width="199" Height="33" FontSize="19" Click="button_Click"/>
+        <Button x:Name="button1" Content="Insertar" FontWeight="Bold"  HorizontalAlignment="Left" Margin="23,320,0,0" VerticalAlignment="Top" Width="99" Height="37" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Borrar" FontWeight="Bold" HorizontalAlignment="Left" Margin="127,320,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.244,0.383" Height="37" Click="button2_Click"/>
+        <TextBox Name="insertaCliente" FontWeight="Bold" HorizontalAlignment="Left" Height="30" Margin="23,364,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="btn_Actualiza" FontWeight="Bold" Content="Actualizar" HorizontalAlignment="Left" Height="49" Margin="247,334,0,0" VerticalAlignment="Top" Width="200" Click="button3_Click"/>
+
+    </Grid>
+</Window>

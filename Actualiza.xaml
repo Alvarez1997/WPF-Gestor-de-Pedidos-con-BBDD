@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPF_ConexionGestionPedidos_BBDD.Actualiza"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_ConexionGestionPedidos_BBDD"
+        mc:Ignorable="d"
+        Title="Actualiza" Height="280" Width="550" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox Name="cuadroActualiza" HorizontalAlignment="Left" Height="46" Margin="270,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="247"/>
+        <Label x:Name="label" Content="Nombre de Cliente: " FontWeight="Bold" HorizontalAlignment="Left" Height="32" Margin="82,79,0,0" VerticalAlignment="Top" Width="156"/>
+        <Button x:Name="button" Content="Salir" FontWeight="Bold" HorizontalAlignment="Left" Height="44" Margin="51,177,0,0" VerticalAlignment="Top" Width="205" FontSize="20" Click="button_Click"/>
+        <Button x:Name="btnActualiza" Content="Actualiza" HorizontalAlignment="Left" Margin="309,177,0,0" VerticalAlignment="Top" Width="192" Height="44" Click="btnActualiza_Click"/>
+
+    </Grid>
+</Window>
